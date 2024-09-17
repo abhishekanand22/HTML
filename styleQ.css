@@ -1,0 +1,269 @@
+/* *{
+    font-family: 'Courier New';
+}
+
+h1,h3{
+    color: #b92b27;
+}
+
+#login{
+    background-color:blue;
+}
+#signup{
+    color: white;
+    background-color: #b92b27;
+}
+
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+
+p a{
+    color: purple;
+}
+
+p+h3{
+    text-decoration: underline;
+}
+
+.upvote+button{
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+div > input{
+    background-color: aqua;
+}
+nav a{
+    color: greenyellow;
+}
+
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: none;
+}
+button:active{
+    background-color: hotpink;
+}
+
+input[type="radio"]:checked +label{
+    color: red;
+    font-weight: bolder;
+}
+
+h1::first-letter{
+    color: green;
+}
+
+#para::first-line{
+    color: rgb(27, 233, 17);
+}
+#para::selection{
+    background-color: yellowgreen;
+} */
+
+/* 
+*{
+    font-family: 'Courier New';
+}
+
+h1{
+    color: #1b74e4;
+    font-weight: bold;
+}
+
+#search{
+    background-color: black;
+    color: white;
+}
+
+h1 button{
+    background-color: aqua;
+} */
+
+/* 
+div{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    border: solid;
+    border-width: 5px;
+    border-color: aqua;
+    border-radius: 15px;
+}
+h1{
+    border-style: dotted;
+    border-radius: 50%;
+} */
+
+/* #outerdiv{
+     height: 200px;
+     width:70px;
+     border: solid black 2px;
+}
+
+.innerdiv{
+    height: 50px;
+    width: 50px;
+    border: solid black 2px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+} */
+
+
+
+/* #outer {
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border: solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+#inner {
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+#inner:hover{
+    background-color: black;
+    transition-duration: 2s;
+    margin-top: 200%;
+}
+#outer:hover{
+    background-color: blue;
+    transition-duration: 10s;
+    margin-left: 200%;
+    transition-delay: 2s;
+} */
+
+
+/* .face{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: rgb(198, 250, 10);
+    
+}
+
+.mouth{
+    height: 90px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    border-radius: 0 0 50px 50px;
+    top: 250px;
+    left: 100px;
+}
+
+.left, .right{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    display: inline;
+    top: 100px;
+    left: 100px;
+}
+.right{
+    left: 250px;
+} */
+
+/* .box{
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    animation-name: coloranimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+    animation-delay: 0;
+
+    
+
+}
+
+@keyframes fontAnimation{
+    form {font-size:20px;}
+    to{
+        font-size: 50px;
+    }
+}  
+
+@keyframes coloranimation{
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: blue;
+    }
+} */
+
+
+/*pet adoptation*/
+
+
+  .card{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+  }
+  img{
+    width: 400px;
+    border-radius: 25px;
+  }
+  #pets{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  h4{
+    text-align: right;
+    color: blue;
+    text-decoration: dashed;
+  }
+  h2{
+    color: rgb(232, 139, 17);
+  }
+  span{
+    color: rgb(232, 139, 17);
+  }
+
+  @media(max-width:414px) {
+    #pets{
+        flex-wrap: wrap;
+    }
+  }
