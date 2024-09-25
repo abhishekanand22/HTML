@@ -69,16 +69,75 @@
 
 // object litrals
 
-const studentInfo={
-    aman :{
-        grade :"A",
-        gender:"Male"
-    },
-    abhishek:{
-        grade:"C",
-        gender :"Male"
-    }
-};
+// const studentInfo={
+//     aman :{
+//         grade :"A",
+//         gender:"Male"
+//     },
+//     abhishek:{
+//         grade:"C",
+//         gender :"Male"
+//     }
+// };
 
 
+// let words =['hello','there','!'];
+
+// function conCat(words){
+//     let res;
+//     for(let i=0; i<words.length; i++)
+//     {
+//         res+=words[i]; 
+//     }
+//     return res;
+// }
+
+
+// console.log("Hello");
+// console.log("Hello2");
+// console.log("Hello3");
+// try{
+//     console.log(a);
+// }
+// catch{
+//     console.log("a is not defined.");
+// }
+// console.log("Hello4");
+// console.log("Hello5");
+
+
+// const sum=(arg1,arg2)=>{
+//     console.log(arg1+arg2);
+// };
+
+// console.log("hi there!");
+
+// setTimeout(  ()=>{
+//     console.log("Welcome.."),4000
+// },4000);
+
+// console.log("hwllo2");
+
+
+// reduce function 
+
+// let arr=[2,4,3,5,7,8,9,0]
+// let ans = arr.reduce((max,el)=>{
+//     if(max<el){
+//         return el;
+//     }
+//     else{
+//         return max;
+//     }
+// });
+// console.log(ans);
+
+
+let smallimages = document.getElementsByClassName("oldimage");
+
+for(i=0; i<smallimages.length; i++)
+{
+    smallimages[i].src="practiceAssets/spiderman.jpg.jpg";
+    console.log(`value of image ${i} is changed.`);
+}
 
