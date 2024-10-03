@@ -133,11 +133,30 @@
 // console.log(ans);
 
 
-let smallimages = document.getElementsByClassName("oldimage");
+// let smallimages = document.getElementsByClassName("oldimage");
 
-for(i=0; i<smallimages.length; i++)
-{
-    smallimages[i].src="practiceAssets/spiderman.jpg.jpg";
-    console.log(`value of image ${i} is changed.`);
-}
+// for(i=0; i<smallimages.length; i++)
+// {
+//     smallimages[i].src="practiceAssets/spiderman.jpg.jpg";
+//     console.log(`value of image ${i} is changed.`);
+// }
+
+
+// API
+
+
+let url = "https://catfact.ninja/fact";
+
+fetch(url)
+
+.then((res)=>{
+    console.log(res);
+    return res.json();
+})
+.then((data)=>{
+    console.log(data);
+})
+.catch((err)=>{
+    console.log("error = ",err);
+});
 
